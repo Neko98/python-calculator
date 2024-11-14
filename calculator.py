@@ -42,8 +42,6 @@ class Calculator:
         q = self.divide(a, b)
         q = self.multiply(q, b)
         a = self.subtract(a, q)
-        if a<0:
-            a = -a
         return a
 
 # Example usage:
