@@ -35,6 +35,6 @@ class TestCalculator(unittest.TestCase):
 
     def test_modulo_nzr(self):
         self.assertEqual(self.calc.modulo(3, 2), 1)
-
+        
 if __name__ == '__main__':
     unittest.main()
